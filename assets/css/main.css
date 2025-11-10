@@ -985,11 +985,14 @@ section,
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -1068,6 +1071,10 @@ section,
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
+}
+
+.swiper-wrapper .swiper-slide > img {
+  width: 200px;
 }
 
 /*--------------------------------------------------------------
